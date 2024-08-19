@@ -8,7 +8,7 @@ const app = express()
 const port = 3000
 
 app.use(cors({
-  origin: ['https://quickbites-frontend.vercel.app'],
+  origin: ['quickbites-frontend.vercel.app'],
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
   credentials: true,
  
